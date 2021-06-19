@@ -29,3 +29,4 @@ function updateGallery() {
 }
 
 updateGallery();
+//second commit
