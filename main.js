@@ -11,7 +11,9 @@ console.log(addImageButton);
 
 addImageButton.addEventListener('click', function() {
   console.log(imageUrlInput.value);
-  imageUrls.push(imageUrlInput.value);
+  if (imageUrlInput !== "") {
+    imageUrls.push(imageUrlInput.value);
+  }
   imageUrlInput.value = '';
   updateGallery()
 })
